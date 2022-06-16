@@ -1,12 +1,12 @@
 /*
  * @Author: liushuai
- * @Description: 
+ * @Description:
  * @Date: 2022-06-14 14:20:58
  * @LastEditors: liushuai
  */
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite'
 import WindiCSS from 'vite-plugin-windicss'
-import uni from "@dcloudio/vite-plugin-uni";
+import uni from '@dcloudio/vite-plugin-uni'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -16,4 +16,4 @@ export default defineConfig({
       fileExtensions: ['vue', 'js', 'ts'], // 同时启用扫描vue/js/ts
     },
   }), uni()],
-});
+})

@@ -1,22 +1,24 @@
 <!--
  * @Author: liushuai
- * @Description: 
+ * @Description:
  * @Date: 2022-06-14 14:20:58
  * @LastEditors: liushuai
 -->
+<script setup lang="ts">
+import { ref } from 'vue'
+const title = ref('maooo-uni-ui hello ')
+</script>
+
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area text-gray-400 bg-black">
-      <text class="title text-red-200">{{ title }}</text>
+      <text class="title text-red-200">
+        {{ title }}
+      </text>
     </view>
   </view>
 </template>
-
-<script setup lang="ts">
-import { ref } from "vue";
-const title = ref("maooo-uni-ui hello ");
-</script>
 
 <style lang="scss" scoped>
 .content {
